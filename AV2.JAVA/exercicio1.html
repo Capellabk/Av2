@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICIO 1</title>
+</head>
+<body>
+    <script>
+        let nome = String(prompt("Digite seu nome: "));
+        let curso = String(prompt("Digite seu curso: "));
+        
+        let media, av1, av2, avd;
+        av1 = prompt("Digite a sua nota da AV1: ");
+        av1 = eval(av1);
+        
+        av2 = prompt("Digite a sua nota da AV2: ");
+        av2 = eval(av2);
+
+        avd = prompt("Digite a sua nota da avd: ");
+        avd = eval("avd");
+
+        media = ((av1 + av2 + avd) /3);
+
+        document.write("<br>" , nome);
+        document.write("<br>" , curso);
+        document.write("<br>" , media);
+    </script>
+    
+</body>
+</html>
